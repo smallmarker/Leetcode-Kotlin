@@ -1,7 +1,7 @@
 package com.smallmarker.leetcode_kotlin.questions._0002
 
 /**
- * @see https://leetcode.cn/problems/add-two-numbers/description/
+ * @link https://leetcode.cn/problems/add-two-numbers/description/
  * @author   zl
  * @Date     2024/3/22
  **/

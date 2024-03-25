@@ -1,7 +1,7 @@
 package com.smallmarker.leetcode_kotlin.questions._0001
 
 /**
- * @see https://leetcode.cn/problems/two-sum/description/
+ * @link https://leetcode.cn/problems/two-sum/description/
  * @author   zl
  * @Date     2024/3/22
  **/
@@ -13,7 +13,6 @@ class Solution {
     // 遍历数组，对于每个元素 nums[i]，检查哈希表中是否存在 target - nums[i]，即是否存在与当前元素相加等于目标值的另一个元素。
     // 如果存在，则返回当前元素的下标 i 和哈希表中存储的另一个元素的下标。
     // 如果不存在，则将当前元素及其下标加入哈希表中。
-
     fun twoSum(nums: IntArray, target: Int): IntArray {
         //创建一个哈希表，用于存储元素及其下标
         val map = mutableMapOf<Int, Int>()

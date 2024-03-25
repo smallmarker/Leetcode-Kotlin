@@ -11,10 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.smallmarker.leetcode_kotlin.questions._0002.Solution
+import com.smallmarker.leetcode_kotlin.questions._0003.Solution
 import com.smallmarker.leetcode_kotlin.ui.theme.LeetCodeKotlinTheme
-import org.json.JSONArray
-import org.json.JSONObject
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,15 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        val n = Solution().addTwoNumbers(Solution.ListNode(2).apply {
-            this.next = Solution.ListNode(4).apply {
-                this.next = Solution.ListNode(3)
-            }
-        }, Solution.ListNode(5).apply {
-            this.next = Solution.ListNode(6).apply {
-                this.next = Solution.ListNode(4)
-            }
-        })
+        val n = Solution().lengthOfLongestSubstring("abcdefgahebecdhcemnm")
         Log.d("TAG","================" + n)
     }
 }
