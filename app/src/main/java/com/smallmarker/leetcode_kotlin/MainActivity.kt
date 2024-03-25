@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.smallmarker.leetcode_kotlin.questions._0001.Solution
+import com.smallmarker.leetcode_kotlin.questions._0002.Solution
 import com.smallmarker.leetcode_kotlin.ui.theme.LeetCodeKotlinTheme
 import org.json.JSONArray
 import org.json.JSONObject
@@ -30,8 +30,16 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        val nums = Solution().twoSum(intArrayOf(3,3), 6)
-        Log.d("TAG","================" + JSONArray(nums).toString())
+        val n = Solution().addTwoNumbers(Solution.ListNode(2).apply {
+            this.next = Solution.ListNode(4).apply {
+                this.next = Solution.ListNode(3)
+            }
+        }, Solution.ListNode(5).apply {
+            this.next = Solution.ListNode(6).apply {
+                this.next = Solution.ListNode(4)
+            }
+        })
+        Log.d("TAG","================" + n)
     }
 }
 
