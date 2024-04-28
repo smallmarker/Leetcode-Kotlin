@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.smallmarker.leetcode_kotlin.questions._0003.Solution
+import com.smallmarker.leetcode_kotlin.questions._0004.Solution
 import com.smallmarker.leetcode_kotlin.ui.theme.LeetCodeKotlinTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        val n = Solution().lengthOfLongestSubstring("abcdefgahebecdhcemnm")
+        val n = Solution().findMedianSortedArrays(intArrayOf(1,9), intArrayOf(2,4)) // 1249
         Log.d("TAG","================" + n)
     }
 }
