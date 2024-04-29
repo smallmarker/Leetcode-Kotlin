@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.smallmarker.leetcode_kotlin.questions._0007.Solution
+import com.smallmarker.leetcode_kotlin.questions._0008.Solution
 import com.smallmarker.leetcode_kotlin.ui.theme.LeetCodeKotlinTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        val n = Solution().reverse(-123456789)
+        val n = Solution().myAtoi("-42")
         Log.d("TAG","================" + n)
     }
 }
