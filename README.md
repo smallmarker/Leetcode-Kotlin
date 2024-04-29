@@ -7,3 +7,4 @@
 |0003|[无重复字符的最长子串](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0003/Solution.kt)|中等|
 |0004|[寻找两个正序数组的中位数](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0004/Solution.kt)|困难|
 |0005|[最长回文子串](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0005/Solution.kt)|中等|
+|0006|[Z 字形变换](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0006/Solution.kt)|中等|
