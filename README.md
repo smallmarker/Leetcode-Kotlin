@@ -15,3 +15,5 @@
 |0011|[盛最多水的容器](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0011/Solution.kt)|中等|
 |0012|[整数转罗马数字](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0012/Solution.kt)|中等|
 |0013|[罗马数字转整数](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0013/Solution.kt)|简单|
+|0014|[最长公共前缀](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0014/Solution.kt)|简单|
+|0015|[三数之和](https://github.com/smallmarker/Leetcode-Kotlin/blob/main/app/src/main/java/com/smallmarker/leetcode_kotlin/questions/_0015/Solution.kt)|中等|
