@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.smallmarker.leetcode_kotlin.questions._0016.Solution
+import com.smallmarker.leetcode_kotlin.questions._0017.Solution
 import com.smallmarker.leetcode_kotlin.ui.theme.LeetCodeKotlinTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        val value = Solution().threeSumClosest(intArrayOf(1,1,1,0), 100)
+        val value = Solution().letterCombinations("")
         Log.d("TAG","===========================" + value)
     }
 }
